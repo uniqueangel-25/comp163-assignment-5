@@ -31,3 +31,15 @@ if is_prime:
     print(f"{n} is not prime (divisible by {i})")   
 else:
     print(f"{n} is prime!")
+
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+print(" ",end="  ")
+for x in range(1,11):
+    print(f"{x:4}", end="")
+print()
+for k in range(1,11):
+    print(f" {k:2}", end="")
+    for j in range(1,11):
+        print(f"{(j*k):4}",end="")
+    print()
